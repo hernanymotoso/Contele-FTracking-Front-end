@@ -1,5 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Main() {
-  return <h1>Hello Main </h1>;
+import Container from '../../components/Container';
+
+export default class Main extends Component {
+  state = {};
+
+  render() {
+    return (
+      <Container>
+        <h1>Hello Main </h1>
+      </Container>
+    );
+  }
 }
