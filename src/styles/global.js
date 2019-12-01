@@ -16,7 +16,7 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
   }
 
-  body, input, button {
+  body, input, button, select {
     color: #69737a;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
